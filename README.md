@@ -36,6 +36,9 @@ bleak also supports Linux (BlueZ) and Windows.
 
 `python xiaomi_ble_provision.py selftest` checks the crypto and framing offline.
 
+The same flow is proposed for python-miio as `miiocli ble provision`:
+[rytilahti/python-miio#2102](https://github.com/rytilahti/python-miio/pull/2102).
+
 ## What we found on the real device
 
 * **Your Xiaomi account id (`uid`) is mandatory.** Without it the device accepts and decrypts the configuration,
